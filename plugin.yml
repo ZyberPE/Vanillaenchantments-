@@ -1,0 +1,15 @@
+name: VanillaEnchantments
+main: VanillaEnchantments\Main
+version: 1.0.0
+api: 5.0.0
+author: ZyberPE
+
+commands:
+  enchant:
+    description: Enchant an item
+    usage: "/enchant <player> <enchantment> <level>"
+    permission: enchant.use
+
+permissions:
+  enchant.use:
+    default: op
